@@ -1,5 +1,6 @@
 name: Build Xiaomi AX3000T
-on: [push]
+on:
+   workflow_dispatch:
 
 jobs:
     build:
